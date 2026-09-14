@@ -1,0 +1,20 @@
+node_modules/
+dist/
+coverage/
+*.log
+npm-debug.log*
+
+# secrets / local config — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+service-account*.json
+client_secret*.json
+credentials.json
+token.json
+tokens/
+.secrets/
+.DS_Store
